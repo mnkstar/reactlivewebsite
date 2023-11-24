@@ -7,8 +7,7 @@
 
 .home,
 .services,
-.products,
-.sign-up{
+.products{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -23,22 +22,71 @@
   background-repeat: no-repeat;
   color: #000000;
   font-size: 100px;
+  margin:0;
+  padding:0;
 }
 
 .products {
   background-image:  url("/public/images/img-10.png");
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   color: #000000;
   font-size: 100px;
+  margin:0;
+  padding:0;
+}
+body {
+  background-color: rgb(155, 175, 255); 
+  margin: 0; 
+  padding:0;
 }
 
-.sign-up {
-  background-image:  url("/public/images/pattern.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #ffffff;
-  font-size: 100px;
+.headline {
+  margin-top: 70px;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0)
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(150, 255, 230);
+  border-radius: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid rgb(134, 244, 250);
+  border-radius: 20px;
+  border-width: 10px;
+ 
+}
+
+input:focus{
+  outline:none;
+}
+
+.small-button {
+  padding: 10px 15px; 
+  font-size: 14px; 
+ margin:auto;
+ background-color: red;
+ border-radius: 10px;
+ border:none;
+ text-align: center;
+ color:white;
+}
+
+.small-button:hover {
+  background-color: #5eb929; 
+
+}
+
