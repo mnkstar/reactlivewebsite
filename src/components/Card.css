@@ -98,6 +98,12 @@ h1 {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+  text-align: justify;
+
+}
+
+.cards__item__text:hover{
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 1200px) {
