@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             GRPHS
-            <i className='fab fa-typo3' />
+            <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -59,6 +59,16 @@ function Navbar() {
                 Products
               </Link>
             </li>
+
+            <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Sign Up
+              </Link>
+            </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
@@ -66,4 +76,5 @@ function Navbar() {
     </>
   );
 }
+
 export default Navbar;

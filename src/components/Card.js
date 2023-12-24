@@ -10,10 +10,10 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-13.jpg'
-              text='MERN_STACK APP with tailwind Css Project'
-              label='Web Development'
-              path='https://mern-getestate.onrender.com'
+              src='images/img-10.png'
+              text='Neon Design'
+              label='Neon Sign Graphic Design'
+
             />
             <CardItem
               src='images/img-2.jpg'

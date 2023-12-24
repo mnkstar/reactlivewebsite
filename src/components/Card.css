@@ -5,7 +5,7 @@
 
 h1 {
   text-align: center;
-  color:black
+  color: black;
 }
 
 .cards__container {
@@ -99,10 +99,9 @@ h1 {
   font-size: 18px;
   line-height: 24px;
   text-align: justify;
-
 }
 
-.cards__item__text:hover{
+.cards__item__text:hover {
   text-decoration: underline;
 }
 
